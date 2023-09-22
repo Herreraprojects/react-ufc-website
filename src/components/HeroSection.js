@@ -14,18 +14,12 @@ function HeroSection() {
             <p>THERE'S A FIGTHER IN ALL OF US</p>
             
             <div className='hero-btns'>
-                <Button to='/sign-up'
-                className='btns' 
-                buttonStyle='btn--outline' 
-                buttonSize='btn--large'
-                >
-                    GET STARTED
-                </Button>
+                
                 <Button to='/trailer'
                 className='btns' 
                 buttonStyle='btn--primary' 
                 buttonSize='btn--large'
-                >WATCH TRAILER <i className='far fa-play-circle'/>
+                >OUR HISTORY <i className='far fa-play-circle'/>
                 </Button>
             </div>
         </div>

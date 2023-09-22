@@ -1,6 +1,16 @@
 import React from 'react'
-import '../../App.css'
+import Footer from '../Footer'
+import '../services.css'
+
 
 export default function Services () {
-    return <h1 className='services'>SERVICES</h1>
+    return   (
+        <>
+       <div className='events-img'>
+       
+      </div>
+   
+        <Footer/>
+        </>
+    )
 }
